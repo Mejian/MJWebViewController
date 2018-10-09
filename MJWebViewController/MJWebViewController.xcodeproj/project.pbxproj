@@ -1,0 +1,627 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		187DE409216C7F53006F286C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187DE408216C7F53006F286C /* AppDelegate.swift */; };
+		187DE40B216C7F53006F286C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187DE40A216C7F53006F286C /* ViewController.swift */; };
+		187DE410216C7F55006F286C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 187DE40F216C7F55006F286C /* Assets.xcassets */; };
+		187DE413216C7F55006F286C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 187DE411216C7F55006F286C /* LaunchScreen.storyboard */; };
+		187DE41E216C7F55006F286C /* MJWebViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187DE41D216C7F55006F286C /* MJWebViewControllerTests.swift */; };
+		187DE429216C7F55006F286C /* MJWebViewControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187DE428216C7F55006F286C /* MJWebViewControllerUITests.swift */; };
+		187DE437216C7F75006F286C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 187DE436216C7F75006F286C /* Main.storyboard */; };
+		187DE441216C7F82006F286C /* MJWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187DE439216C7F82006F286C /* MJWebViewController.swift */; };
+		187DE442216C7F82006F286C /* MJWebView_goForward@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 187DE43B216C7F82006F286C /* MJWebView_goForward@2x.png */; };
+		187DE443216C7F82006F286C /* MJWebView_close@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 187DE43C216C7F82006F286C /* MJWebView_close@3x.png */; };
+		187DE444216C7F82006F286C /* MJWebView_close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 187DE43D216C7F82006F286C /* MJWebView_close@2x.png */; };
+		187DE445216C7F82006F286C /* MJWebView_goForward@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 187DE43E216C7F82006F286C /* MJWebView_goForward@3x.png */; };
+		187DE446216C7F82006F286C /* MJWebView_goBack@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 187DE43F216C7F82006F286C /* MJWebView_goBack@3x.png */; };
+		187DE447216C7F82006F286C /* MJWebView_goBack@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 187DE440216C7F82006F286C /* MJWebView_goBack@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		187DE41A216C7F55006F286C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 187DE3FD216C7F53006F286C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 187DE404216C7F53006F286C;
+			remoteInfo = MJWebViewController;
+		};
+		187DE425216C7F55006F286C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 187DE3FD216C7F53006F286C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 187DE404216C7F53006F286C;
+			remoteInfo = MJWebViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		187DE405216C7F53006F286C /* MJWebViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MJWebViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		187DE408216C7F53006F286C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		187DE40A216C7F53006F286C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		187DE40F216C7F55006F286C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		187DE412216C7F55006F286C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		187DE414216C7F55006F286C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		187DE419216C7F55006F286C /* MJWebViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MJWebViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		187DE41D216C7F55006F286C /* MJWebViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MJWebViewControllerTests.swift; sourceTree = "<group>"; };
+		187DE41F216C7F55006F286C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		187DE424216C7F55006F286C /* MJWebViewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MJWebViewControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		187DE428216C7F55006F286C /* MJWebViewControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MJWebViewControllerUITests.swift; sourceTree = "<group>"; };
+		187DE42A216C7F55006F286C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		187DE436216C7F75006F286C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		187DE439216C7F82006F286C /* MJWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MJWebViewController.swift; sourceTree = "<group>"; };
+		187DE43B216C7F82006F286C /* MJWebView_goForward@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MJWebView_goForward@2x.png"; sourceTree = "<group>"; };
+		187DE43C216C7F82006F286C /* MJWebView_close@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MJWebView_close@3x.png"; sourceTree = "<group>"; };
+		187DE43D216C7F82006F286C /* MJWebView_close@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MJWebView_close@2x.png"; sourceTree = "<group>"; };
+		187DE43E216C7F82006F286C /* MJWebView_goForward@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MJWebView_goForward@3x.png"; sourceTree = "<group>"; };
+		187DE43F216C7F82006F286C /* MJWebView_goBack@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MJWebView_goBack@3x.png"; sourceTree = "<group>"; };
+		187DE440216C7F82006F286C /* MJWebView_goBack@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MJWebView_goBack@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		187DE402216C7F53006F286C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187DE416216C7F55006F286C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187DE421216C7F55006F286C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		187DE3FC216C7F53006F286C = {
+			isa = PBXGroup;
+			children = (
+				187DE407216C7F53006F286C /* MJWebViewController */,
+				187DE41C216C7F55006F286C /* MJWebViewControllerTests */,
+				187DE427216C7F55006F286C /* MJWebViewControllerUITests */,
+				187DE406216C7F53006F286C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		187DE406216C7F53006F286C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				187DE405216C7F53006F286C /* MJWebViewController.app */,
+				187DE419216C7F55006F286C /* MJWebViewControllerTests.xctest */,
+				187DE424216C7F55006F286C /* MJWebViewControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		187DE407216C7F53006F286C /* MJWebViewController */ = {
+			isa = PBXGroup;
+			children = (
+				187DE408216C7F53006F286C /* AppDelegate.swift */,
+				187DE438216C7F82006F286C /* MJWebViewController */,
+				187DE40A216C7F53006F286C /* ViewController.swift */,
+				187DE40F216C7F55006F286C /* Assets.xcassets */,
+				187DE436216C7F75006F286C /* Main.storyboard */,
+				187DE411216C7F55006F286C /* LaunchScreen.storyboard */,
+				187DE414216C7F55006F286C /* Info.plist */,
+			);
+			path = MJWebViewController;
+			sourceTree = "<group>";
+		};
+		187DE41C216C7F55006F286C /* MJWebViewControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				187DE41D216C7F55006F286C /* MJWebViewControllerTests.swift */,
+				187DE41F216C7F55006F286C /* Info.plist */,
+			);
+			path = MJWebViewControllerTests;
+			sourceTree = "<group>";
+		};
+		187DE427216C7F55006F286C /* MJWebViewControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				187DE428216C7F55006F286C /* MJWebViewControllerUITests.swift */,
+				187DE42A216C7F55006F286C /* Info.plist */,
+			);
+			path = MJWebViewControllerUITests;
+			sourceTree = "<group>";
+		};
+		187DE438216C7F82006F286C /* MJWebViewController */ = {
+			isa = PBXGroup;
+			children = (
+				187DE439216C7F82006F286C /* MJWebViewController.swift */,
+				187DE43A216C7F82006F286C /* image */,
+			);
+			path = MJWebViewController;
+			sourceTree = "<group>";
+		};
+		187DE43A216C7F82006F286C /* image */ = {
+			isa = PBXGroup;
+			children = (
+				187DE43B216C7F82006F286C /* MJWebView_goForward@2x.png */,
+				187DE43C216C7F82006F286C /* MJWebView_close@3x.png */,
+				187DE43D216C7F82006F286C /* MJWebView_close@2x.png */,
+				187DE43E216C7F82006F286C /* MJWebView_goForward@3x.png */,
+				187DE43F216C7F82006F286C /* MJWebView_goBack@3x.png */,
+				187DE440216C7F82006F286C /* MJWebView_goBack@2x.png */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		187DE404216C7F53006F286C /* MJWebViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 187DE42D216C7F55006F286C /* Build configuration list for PBXNativeTarget "MJWebViewController" */;
+			buildPhases = (
+				187DE401216C7F53006F286C /* Sources */,
+				187DE402216C7F53006F286C /* Frameworks */,
+				187DE403216C7F53006F286C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MJWebViewController;
+			productName = MJWebViewController;
+			productReference = 187DE405216C7F53006F286C /* MJWebViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		187DE418216C7F55006F286C /* MJWebViewControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 187DE430216C7F55006F286C /* Build configuration list for PBXNativeTarget "MJWebViewControllerTests" */;
+			buildPhases = (
+				187DE415216C7F55006F286C /* Sources */,
+				187DE416216C7F55006F286C /* Frameworks */,
+				187DE417216C7F55006F286C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				187DE41B216C7F55006F286C /* PBXTargetDependency */,
+			);
+			name = MJWebViewControllerTests;
+			productName = MJWebViewControllerTests;
+			productReference = 187DE419216C7F55006F286C /* MJWebViewControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		187DE423216C7F55006F286C /* MJWebViewControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 187DE433216C7F55006F286C /* Build configuration list for PBXNativeTarget "MJWebViewControllerUITests" */;
+			buildPhases = (
+				187DE420216C7F55006F286C /* Sources */,
+				187DE421216C7F55006F286C /* Frameworks */,
+				187DE422216C7F55006F286C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				187DE426216C7F55006F286C /* PBXTargetDependency */,
+			);
+			name = MJWebViewControllerUITests;
+			productName = MJWebViewControllerUITests;
+			productReference = 187DE424216C7F55006F286C /* MJWebViewControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		187DE3FD216C7F53006F286C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Hainan Zhongrong Fintech Co.Ltd";
+				TargetAttributes = {
+					187DE404216C7F53006F286C = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					187DE418216C7F55006F286C = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 187DE404216C7F53006F286C;
+					};
+					187DE423216C7F55006F286C = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 187DE404216C7F53006F286C;
+					};
+				};
+			};
+			buildConfigurationList = 187DE400216C7F53006F286C /* Build configuration list for PBXProject "MJWebViewController" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 187DE3FC216C7F53006F286C;
+			productRefGroup = 187DE406216C7F53006F286C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				187DE404216C7F53006F286C /* MJWebViewController */,
+				187DE418216C7F55006F286C /* MJWebViewControllerTests */,
+				187DE423216C7F55006F286C /* MJWebViewControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		187DE403216C7F53006F286C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187DE437216C7F75006F286C /* Main.storyboard in Resources */,
+				187DE442216C7F82006F286C /* MJWebView_goForward@2x.png in Resources */,
+				187DE444216C7F82006F286C /* MJWebView_close@2x.png in Resources */,
+				187DE446216C7F82006F286C /* MJWebView_goBack@3x.png in Resources */,
+				187DE447216C7F82006F286C /* MJWebView_goBack@2x.png in Resources */,
+				187DE443216C7F82006F286C /* MJWebView_close@3x.png in Resources */,
+				187DE413216C7F55006F286C /* LaunchScreen.storyboard in Resources */,
+				187DE445216C7F82006F286C /* MJWebView_goForward@3x.png in Resources */,
+				187DE410216C7F55006F286C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187DE417216C7F55006F286C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187DE422216C7F55006F286C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		187DE401216C7F53006F286C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187DE40B216C7F53006F286C /* ViewController.swift in Sources */,
+				187DE409216C7F53006F286C /* AppDelegate.swift in Sources */,
+				187DE441216C7F82006F286C /* MJWebViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187DE415216C7F55006F286C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187DE41E216C7F55006F286C /* MJWebViewControllerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187DE420216C7F55006F286C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187DE429216C7F55006F286C /* MJWebViewControllerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		187DE41B216C7F55006F286C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 187DE404216C7F53006F286C /* MJWebViewController */;
+			targetProxy = 187DE41A216C7F55006F286C /* PBXContainerItemProxy */;
+		};
+		187DE426216C7F55006F286C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 187DE404216C7F53006F286C /* MJWebViewController */;
+			targetProxy = 187DE425216C7F55006F286C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		187DE411216C7F55006F286C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				187DE412216C7F55006F286C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		187DE42B216C7F55006F286C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		187DE42C216C7F55006F286C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		187DE42E216C7F55006F286C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R84M839Z92;
+				INFOPLIST_FILE = MJWebViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = webView.MJWebViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		187DE42F216C7F55006F286C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R84M839Z92;
+				INFOPLIST_FILE = MJWebViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = webView.MJWebViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		187DE431216C7F55006F286C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R84M839Z92;
+				INFOPLIST_FILE = MJWebViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = webView.MJWebViewControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MJWebViewController.app/MJWebViewController";
+			};
+			name = Debug;
+		};
+		187DE432216C7F55006F286C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R84M839Z92;
+				INFOPLIST_FILE = MJWebViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = webView.MJWebViewControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MJWebViewController.app/MJWebViewController";
+			};
+			name = Release;
+		};
+		187DE434216C7F55006F286C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R84M839Z92;
+				INFOPLIST_FILE = MJWebViewControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = webView.MJWebViewControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MJWebViewController;
+			};
+			name = Debug;
+		};
+		187DE435216C7F55006F286C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R84M839Z92;
+				INFOPLIST_FILE = MJWebViewControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = webView.MJWebViewControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MJWebViewController;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		187DE400216C7F53006F286C /* Build configuration list for PBXProject "MJWebViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				187DE42B216C7F55006F286C /* Debug */,
+				187DE42C216C7F55006F286C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		187DE42D216C7F55006F286C /* Build configuration list for PBXNativeTarget "MJWebViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				187DE42E216C7F55006F286C /* Debug */,
+				187DE42F216C7F55006F286C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		187DE430216C7F55006F286C /* Build configuration list for PBXNativeTarget "MJWebViewControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				187DE431216C7F55006F286C /* Debug */,
+				187DE432216C7F55006F286C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		187DE433216C7F55006F286C /* Build configuration list for PBXNativeTarget "MJWebViewControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				187DE434216C7F55006F286C /* Debug */,
+				187DE435216C7F55006F286C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 187DE3FD216C7F53006F286C /* Project object */;
+}

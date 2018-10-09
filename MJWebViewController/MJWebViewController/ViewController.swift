@@ -21,7 +21,8 @@ class ViewController: UIViewController {
     
     @IBAction func pushWebViewController(_ sender: Any) {
         
-        let webView = MJWebViewController.init(url: "https://www.hao123.com")
+//        let webView = MJWebViewController.init(url: "https://www.hao123.com")
+        let webView = MJWebViewController.init(url: "https://github.com/Mejian/MJWebViewController.git")
         self.navigationController?.pushViewController(webView, animated: true)
     }
 
